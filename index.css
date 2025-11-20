@@ -11,13 +11,24 @@ body {
   height: 1912px;
 }
 
+/* Header and Footer */
+.footer,
 .header {
   display: flex;
-  justify-content: space-between;
   background-color: #1f2937;
-  color: #f9faf8;
-  align-items: center;
   padding: 18px 200px;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  color: #f9faf8;
+}
+
+.footer {
+  justify-content: center;
+  color: #E5E7Eb;
+  font-size: 18px;;
 }
 
 .header-text {
@@ -30,3 +41,5 @@ body {
   font-size: 18px;
   color: #E5E7EB;
 }
+
+/* Section One */
