@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  outline: auto pink;
 }
 
 body {
@@ -11,12 +12,28 @@ body {
   height: 1912px;
 }
 
+.section {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25%;
+}
+
+button {
+  padding: 8px 16px;
+  width: 130px;
+  height: 40px;
+  border-radius: 8px;;
+}
+
 /* Header and Footer */
+
 .footer,
 .header {
   display: flex;
   background-color: #1f2937;
-  padding: 18px 200px;
+  padding: 18px 25%;
   align-items: center;
 }
 
@@ -43,3 +60,48 @@ body {
 }
 
 /* Section One */
+
+.section.one {
+  background-color: #1f2937;
+}
+
+.section-one-holder {
+  display: flex;
+  flex: 1;
+  height: 250px;
+  gap: 18px;
+}
+
+.section-one-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.placeholder-one {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  background-color: grey;
+}
+
+.first-button {
+  background-color: #3882F6;
+  color: white;
+  border: none;
+}
+
+/* Section Two */
