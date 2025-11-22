@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  /* outline: auto pink; */
+  outline: auto pink;
 }
 
 body {
@@ -132,6 +132,7 @@ button {
   display: flex;
   flex-direction: column;
   width: 150px;
+  flex-wrap: wrap;
 }
 
 .box {
@@ -142,3 +143,29 @@ button {
 }
 
 /* Section Three */
+
+.section.three {
+  background-color: #E5E7EB;
+}
+
+.quote-holder {
+  display: flex;
+  flex-direction: column;
+  /* width: 90%;
+  height: 50%; */
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+}
+
+.quote-sayer {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+/* Section Four */
+
