@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  outline: auto pink;
+  /* outline: auto pink; */
 }
 
 body {
@@ -105,3 +105,40 @@ button {
 }
 
 /* Section Two */
+
+.section.two {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-two-title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.box-text {
+  color: gray;
+  text-align: center;;
+}
+
+.section-two-content {
+  display: flex;
+  gap: 32px;
+}
+
+.box-section {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: #3882F6 3px solid;
+  border-radius: 10px;;
+}
+
+/* Section Three */
